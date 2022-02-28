@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Playfair+Display&display=swap');
+/* font-family: 'Corinthia', cursive;
+font-family: 'Playfair Display', serif; */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 30px;
+}
+#logo img{
+    height: 42px;
+    filter: invert();
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Corinthia', cursive;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: red;
+    padding: 13px 14px;
+    border-radius: 5px;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 7px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;
+    /* font-size: 30px; */
+}
+
+#introSection{
+    font-family: 'Corinthia', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 107, 107);
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 300px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 1rem;
+}
+
+#missionSection{
+    text-align: center;
+    font-family: 'Corinthia', cursive;
+    width: 80%;
+    margin: auto;
+}
+#sizebadao{
+    font-size: 35px;
+}
+.card{
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+    margin: 23px 10px;
+    height: 230px;
+}
+
+.card h3{
+    margin-top: 15px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 150px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 20px;
+}
+#sponsorsSection{
+    text-align: center;
+    padding-top: 12px;
+    height: 300px;
+    background-color: #e59393;
+    font-family: 'Corinthia', cursive;
+}
+
+#sponsors{
+    height: 100px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+.spImage{
+    height: 100px;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    height: 69px;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    padding: 23px;
+}

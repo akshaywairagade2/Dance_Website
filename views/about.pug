@@ -1,0 +1,51 @@
+extends base.pug 
+
+block scripts 
+    script(src="/static/index.js")
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleAbout.css 
+
+block contents 
+        nav#navbar
+            ul 
+                div#logo  
+                    img(src="/static/Images/logo.png")
+                    | ADA
+                li #[a(href="/") Home] 
+                li #[a(href="/about") About ]
+                li #[a(href="/contact") Contact Us ]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Services  ]
+        about#about 
+            div.container 
+                h2 About Us 
+                div.who
+                    h3 Who we are 
+                    p We are the amazing Dance who also have a famous channel on Youtube.Connect us on YouTube through link 
+                div.who 
+                    h3 What matters to us 
+                    p The most important that matters to us is to enhance your dancing skills.
+                div.who 
+                    h3 Our Achivements till now 
+                    p We have supplied a number of dancers who have made a name of our country in the world.
+                div.who 
+                    h3 How we do It 
+                    p We have hired a professional groups of trainers who have shown their glamour in the dancing world to all of us.
+                
+            
+        
+
+
+
+
+
+
+
+
+
+//-         Who you are.
+//- What matters to you.
+//- What you do.
+//- How you do it.

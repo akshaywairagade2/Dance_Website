@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin:12px 0px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 50%;
+    padding: 12px;
+    margin: 5px;
+    border: 2px solid rgb(59, 21, 21);
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    padding: 12px 6px;
+    font-size: 18px;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 12px;
+    background-color: black;
+    color: white;
+
+}
+.container{
+    min-width: 80vh;
+    height: 422px;
+    font-family: 'Corinthia', cursive;
+}

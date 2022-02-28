@@ -1,0 +1,32 @@
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2{
+    text-align: center;
+    color: rgb(87, 57, 57);
+    font-size: 40px;
+}
+
+.who{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.who h3{
+    text-align: center;
+    color: rgb(114, 15, 15);
+    font-size: 20px;
+}
+
+.who p{
+    text-align: center;
+    margin-top: 10px;
+}
